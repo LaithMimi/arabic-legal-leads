@@ -5,9 +5,11 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin, Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const ContactSection = () => {
   const { toast } = useToast();
+  const { t } = useLanguage();
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -18,8 +20,8 @@ const ContactSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "تم إرسال طلبك بنجاح!",
-      description: "سنتواصل معك في أقرب وقت ممكن.",
+      title: t("contact.success.title"),
+      description: t("contact.success.desc"),
     });
     setFormData({ name: "", phone: "", email: "", message: "" });
   };
@@ -34,8 +36,8 @@ const ContactSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-gold font-body text-sm tracking-wider">تواصل معنا</span>
-          <h2 className="font-display text-3xl md:text-5xl font-bold mt-3 text-foreground">احجز استشارتك المجانية</h2>
+          <span className="text-gold font-body text-sm tracking-wider">{t("contact.subtitle")}</span>
+          <h2 className="font-display text-3xl md:text-5xl font-bold mt-3 text-foreground">{t("contact.title")}</h2>
           <div className="w-16 h-1 bg-gradient-gold mx-auto mt-6 rounded-full" />
         </motion.div>
 
@@ -49,14 +51,14 @@ const ContactSection = () => {
             className="space-y-5"
           >
             <Input
-              placeholder="الاسم الكامل"
+              placeholder={t("contact.name")}
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               required
               className="bg-secondary/50 border-border h-14 text-foreground placeholder:text-muted-foreground font-body text-base"
             />
             <Input
-              placeholder="رقم الهاتف"
+              placeholder={t("contact.phone")}
               type="tel"
               value={formData.phone}
               onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
@@ -64,14 +66,14 @@ const ContactSection = () => {
               className="bg-secondary/50 border-border h-14 text-foreground placeholder:text-muted-foreground font-body text-base"
             />
             <Input
-              placeholder="البريد الإلكتروني"
+              placeholder={t("contact.email")}
               type="email"
               value={formData.email}
               onChange={(e) => setFormData({ ...formData, email: e.target.value })}
               className="bg-secondary/50 border-border h-14 text-foreground placeholder:text-muted-foreground font-body text-base"
             />
             <Textarea
-              placeholder="كيف يمكننا مساعدتك؟"
+              placeholder={t("contact.message")}
               value={formData.message}
               onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               rows={5}
@@ -79,7 +81,7 @@ const ContactSection = () => {
             />
             <Button variant="gold" size="lg" className="w-full text-base py-6 gap-2" type="submit">
               <Send className="w-5 h-5" />
-              أرسل طلبك الآن
+              {t("contact.send")}
             </Button>
           </motion.form>
 
@@ -91,22 +93,18 @@ const ContactSection = () => {
             className="space-y-8"
           >
             <div>
-              <h3 className="font-display text-2xl font-bold text-foreground mb-6">معلومات التواصل</h3>
+              <h3 className="font-display text-2xl font-bold text-foreground mb-6">{t("contact.info.title")}</h3>
               <p className="text-muted-foreground font-body leading-relaxed mb-8">
-                لا تتردد في التواصل معنا. فريقنا جاهز للإجابة على جميع استفساراتك وتقديم المشورة المناسبة.
+                {t("contact.info.desc")}
               </p>
             </div>
 
             {[
-              { icon: Phone, label: "الهاتف", value: "04-123-4567", href: "tel:041234567" },
-              { icon: Mail, label: "البريد الإلكتروني", value: "info@accounting-firm.co.il", href: "mailto:info@accounting-firm.co.il" },
-              { icon: MapPin, label: "العنوان", value: "حيفا، إسرائيل", href: "#" },
+              { icon: Phone, label: t("contact.phone.label"), value: t("contact.phone.value"), href: "tel:041234567" },
+              { icon: Mail, label: t("contact.email.label"), value: t("contact.email.value"), href: "mailto:info@accounting-firm.co.il" },
+              { icon: MapPin, label: t("contact.address.label"), value: t("contact.address.value"), href: "#" },
             ].map((item, i) => (
-              <a
-                key={i}
-                href={item.href}
-                className="flex items-center gap-4 group"
-              >
+              <a key={i} href={item.href} className="flex items-center gap-4 group">
                 <div className="w-12 h-12 rounded-xl bg-gold/10 flex items-center justify-center group-hover:bg-gold/20 transition-colors">
                   <item.icon className="w-5 h-5 text-gold" />
                 </div>
