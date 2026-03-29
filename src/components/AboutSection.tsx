@@ -1,14 +1,12 @@
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
-
-const features = [
-  "فريق متخصص من المحاسبين والمحامين ذوي الخبرة",
-  "سرية تامة في التعامل مع جميع الملفات",
-  "متابعة دقيقة لكل مطالبة حتى تحقيق النتيجة",
-  "استشارة أولية مجانية بدون أي التزام",
-];
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const AboutSection = () => {
+  const { t } = useLanguage();
+
+  const features = [t("about.f1"), t("about.f2"), t("about.f3"), t("about.f4")];
+
   return (
     <section className="py-24 bg-background">
       <div className="container mx-auto px-6">
@@ -19,12 +17,12 @@ const AboutSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <span className="text-gold font-body text-sm tracking-wider">من نحن</span>
+            <span className="text-gold font-body text-sm tracking-wider">{t("about.subtitle")}</span>
             <h2 className="font-display text-3xl md:text-5xl font-bold mt-3 mb-6 text-foreground">
-              خبرة تتجاوز <span className="text-gradient-gold">١٥ عامًا</span>
+              {t("about.title1")}<span className="text-gradient-gold">{t("about.title2")}</span>
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8 font-body">
-              مكتبنا يجمع بين الكفاءة المحاسبية والخبرة القانونية لتقديم خدمات متكاملة تضمن حقوقك. نتعامل مع كل ملف باهتمام شخصي ونسعى لتحقيق أفضل النتائج لعملائنا.
+              {t("about.desc")}
             </p>
 
             <div className="space-y-4">
@@ -54,10 +52,10 @@ const AboutSection = () => {
             <div className="bg-card rounded-3xl p-10 border border-border shadow-card">
               <div className="grid grid-cols-2 gap-6">
                 {[
-                  { value: "+١٥", label: "سنة خبرة" },
-                  { value: "+٥٠٠٠", label: "عميل" },
-                  { value: "٩٨%", label: "نسبة نجاح" },
-                  { value: "٢٤/٧", label: "دعم مستمر" },
+                  { value: t("about.stat1.val"), label: t("about.stat1.label") },
+                  { value: t("about.stat2.val"), label: t("about.stat2.label") },
+                  { value: t("about.stat3.val"), label: t("about.stat3.label") },
+                  { value: t("about.stat4.val"), label: t("about.stat4.label") },
                 ].map((stat, i) => (
                   <div key={i} className="text-center p-4">
                     <div className="text-gold font-display text-3xl md:text-4xl font-bold">{stat.value}</div>

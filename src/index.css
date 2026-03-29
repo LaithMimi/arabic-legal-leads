@@ -68,7 +68,7 @@
   }
 
   html {
-    direction: rtl;
+    /* direction is set dynamically by LanguageContext */
   }
 
   body {
