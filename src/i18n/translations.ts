@@ -232,6 +232,6 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.address.value": "Jerusalem, Israel",
 
     "footer.brand": "R & H Financial & Legal Services",
-    "footer.copy": "All rights reserved. R & H Financial & Legal Services — Haifa, Israel.",
+    "footer.copy": "All rights reserved. R & H Financial & Legal Services — Jerusalem, Israel.",
   },
 };
