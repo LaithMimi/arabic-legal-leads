@@ -204,7 +204,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "about.f2": "Complete confidentiality in handling all files",
     "about.f3": "Precise follow-up on every claim until results are achieved",
     "about.f4": "Free initial consultation with no obligation",
-    "about.stat1.val": "15+",
+    "about.stat1.val": "7+",
     "about.stat1.label": "Years Experience",
     "about.stat2.val": "5,000+",
     "about.stat2.label": "Clients",
