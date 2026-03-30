@@ -174,7 +174,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "hero.desc": "We provide professional accounting services and legal consultations to help you realize your financial rights and recover your entitlements with the highest standards of quality and confidentiality.",
     "hero.cta": "Book a Free Consultation",
     "hero.services": "Our Services",
-    "hero.stat1.num": "15+",
+    "hero.stat1.num": "7+",
     "hero.stat1.label": "Years Experience",
     "hero.stat2.num": "5,000+",
     "hero.stat2.label": "Happy Clients",
