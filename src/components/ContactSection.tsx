@@ -100,8 +100,8 @@ const ContactSection = () => {
             </div>
 
             {[
-              { icon: Phone, label: t("contact.phone.label"), value: t("contact.phone.value"), href: "tel:041234567" },
-              { icon: Mail, label: t("contact.email.label"), value: t("contact.email.value"), href: "mailto:info@accounting-firm.co.il" },
+              { icon: Phone, label: t("contact.phone.label"), value: t("contact.phone.value"), href: "tel:05859200041" },
+              { icon: Mail, label: t("contact.email.label"), value: t("contact.email.value"), href: "mailto:alayanr085@gmail.com" },
               { icon: MapPin, label: t("contact.address.label"), value: t("contact.address.value"), href: "#" },
             ].map((item, i) => (
               <a key={i} href={item.href} className="flex items-center gap-4 group">

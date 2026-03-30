@@ -78,13 +78,13 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.phone.label": "الهاتف",
     "contact.email.label": "البريد الإلكتروني",
     "contact.address.label": "العنوان",
-    "contact.phone.value": "04-123-4567",
-    "contact.email.value": "info@accounting-firm.co.il",
-    "contact.address.value": "حيفا، إسرائيل",
+    "contact.phone.value": "058-592-00041",
+    "contact.email.value": "alayanr085@gmail.com",
+    "contact.address.value": "القدس، إسرائيل",
 
     // Footer
     "footer.brand": "R & H للخدمات المالية والقانونية",
-    "footer.copy": "جميع الحقوق محفوظة. R & H للخدمات المالية والقانونية — حيفا، إسرائيل.",
+    "footer.copy": "جميع الحقوق محفوظة. R & H للخدمات المالية والقانونية — القدس، إسرائيل.",
   },
 
   he: {
@@ -153,12 +153,12 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.phone.label": "טלפון",
     "contact.email.label": "דוא\"ל",
     "contact.address.label": "כתובת",
-    "contact.phone.value": "04-123-4567",
-    "contact.email.value": "info@accounting-firm.co.il",
-    "contact.address.value": "חיפה, ישראל",
+    "contact.phone.value": "058-592-00041",
+    "contact.email.value": "alayanr085@gmail.com",
+    "contact.address.value": "ירושלים, ישראל",
 
     "footer.brand": "R & H שירותים פיננסיים ומשפטיים",
-    "footer.copy": "כל הזכויות שמורות. R & H שירותים פיננסיים ומשפטיים — חיפה, ישראל.",
+    "footer.copy": "כל הזכויות שמורות. R & H שירותים פיננסיים ומשפטיים — ירושלים, ישראל.",
   },
 
   en: {
@@ -227,11 +227,11 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.phone.label": "Phone",
     "contact.email.label": "Email",
     "contact.address.label": "Address",
-    "contact.phone.value": "04-123-4567",
-    "contact.email.value": "info@accounting-firm.co.il",
-    "contact.address.value": "Haifa, Israel",
+    "contact.phone.value": "058-592-00041",
+    "contact.email.value": "alayanr085@gmail.com",
+    "contact.address.value": "Jerusalem, Israel",
 
     "footer.brand": "R & H Financial & Legal Services",
-    "footer.copy": "All rights reserved. R & H Financial & Legal Services — Haifa, Israel.",
+    "footer.copy": "All rights reserved. R & H Financial & Legal Services — Jerusalem, Israel.",
   },
 };
