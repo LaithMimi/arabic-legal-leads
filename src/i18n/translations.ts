@@ -231,7 +231,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.email.value": "info@accounting-firm.co.il",
     "contact.address.value": "Haifa, Israel",
 
-    "footer.brand": "Legal Accountant",
-    "footer.copy": "All rights reserved. Accounting & Legal Claims Office — Haifa, Israel.",
+    "footer.brand": "R & H Financial & Legal Services",
+    "footer.copy": "All rights reserved. R & H Financial & Legal Services — Haifa, Israel.",
   },
 };
