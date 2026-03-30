@@ -153,9 +153,9 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.phone.label": "טלפון",
     "contact.email.label": "דוא\"ל",
     "contact.address.label": "כתובת",
-    "contact.phone.value": "04-123-4567",
-    "contact.email.value": "info@accounting-firm.co.il",
-    "contact.address.value": "חיפה, ישראל",
+    "contact.phone.value": "058-592-00041",
+    "contact.email.value": "alayanr085@gmail.com",
+    "contact.address.value": "ירושלים, ישראל",
 
     "footer.brand": "R & H שירותים פיננסיים ומשפטיים",
     "footer.copy": "כל הזכויות שמורות. R & H שירותים פיננסיים ומשפטיים — חיפה, ישראל.",
