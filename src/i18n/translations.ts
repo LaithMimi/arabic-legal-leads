@@ -158,7 +158,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.address.value": "ירושלים, ישראל",
 
     "footer.brand": "R & H שירותים פיננסיים ומשפטיים",
-    "footer.copy": "כל הזכויות שמורות. R & H שירותים פיננסיים ומשפטיים — חיפה, ישראל.",
+    "footer.copy": "כל הזכויות שמורות. R & H שירותים פיננסיים ומשפטיים — ירושלים, ישראל.",
   },
 
   en: {
