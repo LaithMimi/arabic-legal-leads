@@ -92,7 +92,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "nav.services": "שירותים",
     "nav.about": "אודות",
     "nav.contact": "צור קשר",
-    "nav.brand": "רואה החשבון",
+    "nav.brand": "R & H שירותים פיננסיים ומשפטיים",
 
     "hero.badge": "משרד רואי חשבון ותביעות משפטיות בישראל",
     "hero.title1": "השותף האמין שלך ב",
