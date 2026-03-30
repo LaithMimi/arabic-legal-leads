@@ -130,7 +130,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "about.f2": "סודיות מוחלטת בטיפול בכל התיקים",
     "about.f3": "מעקב מדויק אחר כל תביעה עד להשגת תוצאה",
     "about.f4": "ייעוץ ראשוני חינם ללא כל התחייבות",
-    "about.stat1.val": "15+",
+    "about.stat1.val": "7+",
     "about.stat1.label": "שנות ניסיון",
     "about.stat2.val": "5,000+",
     "about.stat2.label": "לקוחות",
