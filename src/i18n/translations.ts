@@ -166,7 +166,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "nav.services": "Services",
     "nav.about": "About",
     "nav.contact": "Contact Us",
-    "nav.brand": "Legal Accountant",
+    "nav.brand": "R & H Financial & Legal Services",
 
     "hero.badge": "Accounting & Legal Claims Firm in Israel",
     "hero.title1": "Your Trusted Partner in",
