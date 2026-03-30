@@ -83,8 +83,8 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.address.value": "حيفا، إسرائيل",
 
     // Footer
-    "footer.brand": "المحاسب القانوني",
-    "footer.copy": "جميع الحقوق محفوظة. مكتب محاسبة ومطالبات قانونية — حيفا، إسرائيل.",
+    "footer.brand": "R & H للخدمات المالية والقانونية",
+    "footer.copy": "جميع الحقوق محفوظة. R & H للخدمات المالية والقانونية — حيفا، إسرائيل.",
   },
 
   he: {
