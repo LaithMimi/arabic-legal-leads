@@ -84,7 +84,7 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // Footer
     "footer.brand": "R & H للخدمات المالية والقانونية",
-    "footer.copy": "جميع الحقوق محفوظة. R & H للخدمات المالية والقانونية — حيفا، إسرائيل.",
+    "footer.copy": "جميع الحقوق محفوظة. R & H للخدمات المالية والقانونية — القدس، إسرائيل.",
   },
 
   he: {
