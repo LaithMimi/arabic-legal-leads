@@ -13,7 +13,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "nav.services": "خدماتنا",
     "nav.about": "من نحن",
     "nav.contact": "تواصل معنا",
-    "nav.brand": "المحاسب القانوني",
+    "nav.brand": "R & H للخدمات المالية والقانونية",
 
     // Hero
     "hero.badge": "مكتب محاسبة ومطالبات قانونية في إسرائيل",
@@ -83,8 +83,8 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.address.value": "حيفا، إسرائيل",
 
     // Footer
-    "footer.brand": "المحاسب القانوني",
-    "footer.copy": "جميع الحقوق محفوظة. مكتب محاسبة ومطالبات قانونية — حيفا، إسرائيل.",
+    "footer.brand": "R & H للخدمات المالية والقانونية",
+    "footer.copy": "جميع الحقوق محفوظة. R & H للخدمات المالية والقانونية — حيفا، إسرائيل.",
   },
 
   he: {
@@ -92,7 +92,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "nav.services": "שירותים",
     "nav.about": "אודות",
     "nav.contact": "צור קשר",
-    "nav.brand": "רואה החשבון",
+    "nav.brand": "R & H שירותים פיננסיים ומשפטיים",
 
     "hero.badge": "משרד רואי חשבון ותביעות משפטיות בישראל",
     "hero.title1": "השותף האמין שלך ב",
@@ -157,8 +157,8 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.email.value": "info@accounting-firm.co.il",
     "contact.address.value": "חיפה, ישראל",
 
-    "footer.brand": "רואה החשבון",
-    "footer.copy": "כל הזכויות שמורות. משרד רואי חשבון ותביעות משפטיות — חיפה, ישראל.",
+    "footer.brand": "R & H שירותים פיננסיים ומשפטיים",
+    "footer.copy": "כל הזכויות שמורות. R & H שירותים פיננסיים ומשפטיים — חיפה, ישראל.",
   },
 
   en: {
@@ -166,7 +166,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "nav.services": "Services",
     "nav.about": "About",
     "nav.contact": "Contact Us",
-    "nav.brand": "Legal Accountant",
+    "nav.brand": "R & H Financial & Legal Services",
 
     "hero.badge": "Accounting & Legal Claims Firm in Israel",
     "hero.title1": "Your Trusted Partner in",
@@ -231,7 +231,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.email.value": "info@accounting-firm.co.il",
     "contact.address.value": "Haifa, Israel",
 
-    "footer.brand": "Legal Accountant",
-    "footer.copy": "All rights reserved. Accounting & Legal Claims Office — Haifa, Israel.",
+    "footer.brand": "R & H Financial & Legal Services",
+    "footer.copy": "All rights reserved. R & H Financial & Legal Services — Haifa, Israel.",
   },
 };
