@@ -157,8 +157,8 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.email.value": "info@accounting-firm.co.il",
     "contact.address.value": "חיפה, ישראל",
 
-    "footer.brand": "רואה החשבון",
-    "footer.copy": "כל הזכויות שמורות. משרד רואי חשבון ותביעות משפטיות — חיפה, ישראל.",
+    "footer.brand": "R & H שירותים פיננסיים ומשפטיים",
+    "footer.copy": "כל הזכויות שמורות. R & H שירותים פיננסיים ומשפטיים — חיפה, ישראל.",
   },
 
   en: {
