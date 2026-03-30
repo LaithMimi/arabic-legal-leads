@@ -78,9 +78,9 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.phone.label": "الهاتف",
     "contact.email.label": "البريد الإلكتروني",
     "contact.address.label": "العنوان",
-    "contact.phone.value": "04-123-4567",
-    "contact.email.value": "info@accounting-firm.co.il",
-    "contact.address.value": "حيفا، إسرائيل",
+    "contact.phone.value": "058-592-00041",
+    "contact.email.value": "alayanr085@gmail.com",
+    "contact.address.value": "القدس، إسرائيل",
 
     // Footer
     "footer.brand": "R & H للخدمات المالية والقانونية",
