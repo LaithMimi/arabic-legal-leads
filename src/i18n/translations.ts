@@ -198,7 +198,7 @@ export const translations: Record<Language, Record<string, string>> = {
 
     "about.subtitle": "About Us",
     "about.title1": "Over ",
-    "about.title2": "15 Years of Experience",
+    "about.title2": "7 Years of Experience",
     "about.desc": "Our firm combines accounting expertise and legal experience to provide comprehensive services that ensure your rights. We treat every case with personal attention and strive to achieve the best results for our clients.",
     "about.f1": "Expert team of experienced accountants and lawyers",
     "about.f2": "Complete confidentiality in handling all files",
