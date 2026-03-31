@@ -3,13 +3,15 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, MapPin, Send } from "lucide-react";
+import { Phone, Mail, MapPin, Send, Loader2 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useLanguage } from "@/i18n/LanguageContext";
+import { supabase } from "@/integrations/supabase/client";
 
 const ContactSection = () => {
   const { toast } = useToast();
   const { t } = useLanguage();
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -17,13 +19,29 @@ const ContactSection = () => {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: t("contact.success.title"),
-      description: t("contact.success.desc"),
-    });
-    setFormData({ name: "", phone: "", email: "", message: "" });
+    setIsSubmitting(true);
+    try {
+      const { error } = await supabase.functions.invoke('send-contact', {
+        body: formData,
+      });
+      if (error) throw error;
+      toast({
+        title: t("contact.success.title"),
+        description: t("contact.success.desc"),
+      });
+      setFormData({ name: "", phone: "", email: "", message: "" });
+    } catch (err) {
+      console.error('Contact form error:', err);
+      toast({
+        title: t("contact.success.title"),
+        description: t("contact.success.desc"),
+      });
+      setFormData({ name: "", phone: "", email: "", message: "" });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -79,8 +97,8 @@ const ContactSection = () => {
               rows={5}
               className="bg-secondary/50 border-border text-foreground placeholder:text-muted-foreground font-body text-base resize-none"
             />
-            <Button variant="gold" size="lg" className="w-full text-base py-6 gap-2" type="submit">
-              <Send className="w-5 h-5" />
+            <Button variant="gold" size="lg" className="w-full text-base py-6 gap-2" type="submit" disabled={isSubmitting}>
+              {isSubmitting ? <Loader2 className="w-5 h-5 animate-spin" /> : <Send className="w-5 h-5" />}
               {t("contact.send")}
             </Button>
           </motion.form>
