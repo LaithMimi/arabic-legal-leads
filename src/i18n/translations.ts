@@ -229,11 +229,12 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.phone.label": "Phone",
     "contact.email.label": "Email",
     "contact.address.label": "Address",
-    "contact.phone.value": "054-339-1108",
+    "contact.phone.value": "054-339-1108 / 058-590-0041",
     "contact.email.value": "halaalayan94@gmail.com",
+    "contact.email2.value": "alayanr085@gmail.com",
     "contact.address.value": "Jerusalem, Israel",
 
-    "footer.brand": "R & H Financial & Legal Services",
-    "footer.copy": "All rights reserved. R & H Financial & Legal Services — Jerusalem, Israel.",
+    "footer.brand": "H&R Financial & Legal Services",
+    "footer.copy": "All rights reserved. H&R Financial & Legal Services — Jerusalem, Israel.",
   },
 };
