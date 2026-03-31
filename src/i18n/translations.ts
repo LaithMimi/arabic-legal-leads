@@ -227,8 +227,8 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.phone.label": "Phone",
     "contact.email.label": "Email",
     "contact.address.label": "Address",
-    "contact.phone.value": "058-592-00041",
-    "contact.email.value": "alayanr085@gmail.com",
+    "contact.phone.value": "054-339-1108",
+    "contact.email.value": "halaalayan94@gmail.com",
     "contact.address.value": "Jerusalem, Israel",
 
     "footer.brand": "R & H Financial & Legal Services",
