@@ -22,7 +22,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "hero.desc": "نقدم خدمات محاسبية واستشارات قانونية احترافية تساعدك على تحقيق حقوقك المالية واسترداد مستحقاتك بأعلى معايير الجودة والسرية.",
     "hero.cta": "احجز استشارة مجانية",
     "hero.services": "خدماتنا",
-    "hero.stat1.num": "+٧",
+    "hero.stat1.num": "+١٥",
     "hero.stat1.label": "سنوات خبرة",
     "hero.stat2.num": "+٥٠٠٠",
     "hero.stat2.label": "عميل راضٍ",
