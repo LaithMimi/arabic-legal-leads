@@ -13,7 +13,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "nav.services": "خدماتنا",
     "nav.about": "من نحن",
     "nav.contact": "تواصل معنا",
-    "nav.brand": "R & H للخدمات المالية والقانونية",
+    "nav.brand": "H&R للخدمات المالية والقانونية",
 
     // Hero
     "hero.badge": "مكتب محاسبة ومطالبات قانونية في إسرائيل",
@@ -78,13 +78,14 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.phone.label": "الهاتف",
     "contact.email.label": "البريد الإلكتروني",
     "contact.address.label": "العنوان",
-    "contact.phone.value": "054-339-1108",
+    "contact.phone.value": "054-339-1108 / 058-590-0041",
     "contact.email.value": "halaalayan94@gmail.com",
+    "contact.email2.value": "alayanr085@gmail.com",
     "contact.address.value": "القدس، إسرائيل",
 
     // Footer
-    "footer.brand": "R & H للخدمات المالية والقانونية",
-    "footer.copy": "جميع الحقوق محفوظة. R & H للخدمات المالية والقانونية — القدس، إسرائيل.",
+    "footer.brand": "H&R للخدمات المالية والقانونية",
+    "footer.copy": "جميع الحقوق محفوظة. H&R للخدمات المالية والقانونية — القدس، إسرائيل.",
   },
 
   he: {
@@ -92,7 +93,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "nav.services": "שירותים",
     "nav.about": "אודות",
     "nav.contact": "צור קשר",
-    "nav.brand": "R & H שירותים פיננסיים ומשפטיים",
+    "nav.brand": "H&R שירותים פיננסיים ומשפטיים",
 
     "hero.badge": "משרד רואי חשבון ותביעות משפטיות בישראל",
     "hero.title1": "השותף האמין שלך ב",
@@ -153,12 +154,13 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.phone.label": "טלפון",
     "contact.email.label": "דוא\"ל",
     "contact.address.label": "כתובת",
-    "contact.phone.value": "054-339-1108",
+    "contact.phone.value": "054-339-1108 / 058-590-0041",
     "contact.email.value": "halaalayan94@gmail.com",
+    "contact.email2.value": "alayanr085@gmail.com",
     "contact.address.value": "ירושלים, ישראל",
 
-    "footer.brand": "R & H שירותים פיננסיים ומשפטיים",
-    "footer.copy": "כל הזכויות שמורות. R & H שירותים פיננסיים ומשפטיים — ירושלים, ישראל.",
+    "footer.brand": "H&R שירותים פיננסיים ומשפטיים",
+    "footer.copy": "כל הזכויות שמורות. H&R שירותים פיננסיים ומשפטיים — ירושלים, ישראל.",
   },
 
   en: {
@@ -166,7 +168,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "nav.services": "Services",
     "nav.about": "About",
     "nav.contact": "Contact Us",
-    "nav.brand": "R & H Financial & Legal Services",
+    "nav.brand": "H&R Financial & Legal Services",
 
     "hero.badge": "Accounting & Legal Claims Firm in Israel",
     "hero.title1": "Your Trusted Partner in",
@@ -227,11 +229,12 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.phone.label": "Phone",
     "contact.email.label": "Email",
     "contact.address.label": "Address",
-    "contact.phone.value": "054-339-1108",
+    "contact.phone.value": "054-339-1108 / 058-590-0041",
     "contact.email.value": "halaalayan94@gmail.com",
+    "contact.email2.value": "alayanr085@gmail.com",
     "contact.address.value": "Jerusalem, Israel",
 
-    "footer.brand": "R & H Financial & Legal Services",
-    "footer.copy": "All rights reserved. R & H Financial & Legal Services — Jerusalem, Israel.",
+    "footer.brand": "H&R Financial & Legal Services",
+    "footer.copy": "All rights reserved. H&R Financial & Legal Services — Jerusalem, Israel.",
   },
 };

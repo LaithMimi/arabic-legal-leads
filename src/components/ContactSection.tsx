@@ -118,13 +118,15 @@ const ContactSection = () => {
             </div>
 
             {[
-              { icon: Phone, label: t("contact.phone.label"), value: t("contact.phone.value"), href: "tel:0543391108" },
-              { icon: Mail, label: t("contact.email.label"), value: t("contact.email.value"), href: "mailto:halaalayan94@gmail.com" },
+              { icon: Phone, label: t("contact.phone.label"), value: "054-339-1108", href: "tel:0543391108" },
+              { icon: Phone, label: t("contact.phone.label"), value: "058-590-0041", href: "tel:0585900041" },
+              { icon: Mail, label: t("contact.email.label"), value: "halaalayan94@gmail.com", href: "mailto:halaalayan94@gmail.com" },
+              { icon: Mail, label: t("contact.email.label"), value: "alayanr085@gmail.com", href: "mailto:alayanr085@gmail.com" },
               { icon: MapPin, label: t("contact.address.label"), value: t("contact.address.value"), href: "#" },
             ].map((item, i) => (
               <a key={i} href={item.href} className="flex items-center gap-4 group">
-                <div className="w-12 h-12 rounded-xl bg-gold/10 flex items-center justify-center group-hover:bg-gold/20 transition-colors">
-                  <item.icon className="w-5 h-5 text-gold" />
+                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                  <item.icon className="w-5 h-5 text-primary" />
                 </div>
                 <div>
                   <div className="text-muted-foreground text-sm font-body">{item.label}</div>
