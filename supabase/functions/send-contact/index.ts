@@ -49,7 +49,7 @@ serve(async (req) => {
       },
       body: JSON.stringify({
         from: 'R&H Services <onboarding@resend.dev>',
-        to: ['alayanr085@gmail.com'],
+        to: ['halaalayan94@gmail.com'],
         subject: `استشارة جديدة من ${name}`,
         html: emailHtml,
       }),
