@@ -78,13 +78,14 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.phone.label": "الهاتف",
     "contact.email.label": "البريد الإلكتروني",
     "contact.address.label": "العنوان",
-    "contact.phone.value": "054-339-1108",
+    "contact.phone.value": "054-339-1108 / 058-590-0041",
     "contact.email.value": "halaalayan94@gmail.com",
+    "contact.email2.value": "alayanr085@gmail.com",
     "contact.address.value": "القدس، إسرائيل",
 
     // Footer
-    "footer.brand": "R & H للخدمات المالية والقانونية",
-    "footer.copy": "جميع الحقوق محفوظة. R & H للخدمات المالية والقانونية — القدس، إسرائيل.",
+    "footer.brand": "H&R للخدمات المالية والقانونية",
+    "footer.copy": "جميع الحقوق محفوظة. H&R للخدمات المالية والقانونية — القدس، إسرائيل.",
   },
 
   he: {
