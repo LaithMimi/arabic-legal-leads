@@ -97,8 +97,8 @@ const ContactSection = () => {
               rows={5}
               className="bg-secondary/50 border-border text-foreground placeholder:text-muted-foreground font-body text-base resize-none"
             />
-            <Button variant="gold" size="lg" className="w-full text-base py-6 gap-2" type="submit">
-              <Send className="w-5 h-5" />
+            <Button variant="gold" size="lg" className="w-full text-base py-6 gap-2" type="submit" disabled={isSubmitting}>
+              {isSubmitting ? <Loader2 className="w-5 h-5 animate-spin" /> : <Send className="w-5 h-5" />}
               {t("contact.send")}
             </Button>
           </motion.form>
