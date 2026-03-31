@@ -13,7 +13,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "nav.services": "خدماتنا",
     "nav.about": "من نحن",
     "nav.contact": "تواصل معنا",
-    "nav.brand": "R & H للخدمات المالية والقانونية",
+    "nav.brand": "H&R للخدمات المالية والقانونية",
 
     // Hero
     "hero.badge": "مكتب محاسبة ومطالبات قانونية في إسرائيل",
