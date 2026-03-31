@@ -153,8 +153,8 @@ export const translations: Record<Language, Record<string, string>> = {
     "contact.phone.label": "טלפון",
     "contact.email.label": "דוא\"ל",
     "contact.address.label": "כתובת",
-    "contact.phone.value": "058-592-00041",
-    "contact.email.value": "alayanr085@gmail.com",
+    "contact.phone.value": "054-339-1108",
+    "contact.email.value": "halaalayan94@gmail.com",
     "contact.address.value": "ירושלים, ישראל",
 
     "footer.brand": "R & H שירותים פיננסיים ומשפטיים",
