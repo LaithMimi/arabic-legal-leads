@@ -100,7 +100,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "hero.desc": "אנו מציעים שירותי חשבונאות וייעוץ משפטי מקצועי שיעזרו לך לממש את זכויותיך הפיננסיות ולהשיב את כספיך בסטנדרטים הגבוהים ביותר של איכות ודיסקרטיות.",
     "hero.cta": "קבע ייעוץ חינם",
     "hero.services": "השירותים שלנו",
-    "hero.stat1.num": "7+",
+    "hero.stat1.num": "15+",
     "hero.stat1.label": "שנות ניסיון",
     "hero.stat2.num": "5,000+",
     "hero.stat2.label": "לקוחות מרוצים",
